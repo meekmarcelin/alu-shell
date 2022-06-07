@@ -1,1 +1,1 @@
-my shell basics readme
+echo my shell basics
