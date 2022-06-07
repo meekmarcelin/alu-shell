@@ -1,2 +1,1 @@
-# alu-shell
-let's get it
+my shell basics readme
