@@ -1,1 +1,1 @@
-redirections raedme
+redirections readme
