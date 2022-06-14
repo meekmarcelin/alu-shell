@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#loop and print that hour
+COUNT=0
+while((COUNT<=12));do
+        echo "Hour: $COUNT"
+        HOUR=1
+        while((HOUR<=59));do
+                echo "$HOUR"
+                ((HOUR++))
+        done;
+((COUNT++))
+done; 
