@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#list all files
+FILES="$(ls)"
+for i in $FILES;
+do
+       NEW=$(find . -maxdepth 1 -name "$i" |cut -d "/" -f2 | cut -d "-" -f2)
+       echo "$NEW"
+done
