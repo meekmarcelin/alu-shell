@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #script does various output
-FILE=$( find . -name "school" |cut -d "/" -f2
+FILE=$( find . -name "school" |cut -d "/" -f2)
 if [ -e "$FILE" ] ;then
        echo "school file exists"
        if [ -s "$FILE" ] ;then
