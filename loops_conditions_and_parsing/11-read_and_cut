@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#script 10 times using loop
+while IFS=: read -r f1 f3 f6; do echo "$f1:$f3:$f6";done</etc/passwd
