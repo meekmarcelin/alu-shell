@@ -4,9 +4,9 @@ COUNT=1
 while((COUNT<=100));do
         if [ "$((COUNT%3))" -eq 0 ] && [ "$((COUNT%5))" -eq 0 ] ;then
               echo "FizzBuzz"
-        elif [ "$((COUNT%3))" eq 0 ] ;then
+        elif [ "$((COUNT%3))" -eq 0 ] ;then
               echo "Fizz"
-        elif [ "$((COUNT%5))" eq 0 ] ;then
+        elif [ "$((COUNT%5))" -eq 0 ] ;then
               echo "Buzz"
         else
               echo "$COUNT"
